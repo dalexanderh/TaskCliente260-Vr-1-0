@@ -1,0 +1,62 @@
+/*body*/
+
+
+  body {
+    background-image: url('r.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Prompt', sans-serif;
+    color: var(--white);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+ 
+  
+}
+
+
+.container {
+  max-width: 600px; /* Ancho máximo */
+  background-color:  rgba(255, 255, 255, 0.2); /* Fondo claro */
+  padding: 20px; /* Espacio interno */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  background-color: rgba(255, 255, 255, 0.2); /* Fondo blanco translúcido */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  overflow: hidden;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  color: #007bff; /* Color azul */
+}
+
+/* Botón de enviar */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Estilo del campo de texto */
+.form-control {
+  border-radius: 4px;
+}
+
+/* Mensaje de error */
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-color: #f5c6cb;
+  border-radius: 4px;
+}
