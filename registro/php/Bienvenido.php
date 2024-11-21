@@ -33,4 +33,3 @@ die();
     <a href="php/cerrar_sesion.php">cerrar sesion</a>
 </body>
 </html>
-
